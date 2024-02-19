@@ -16,7 +16,7 @@ class PostReview(Resource):
         This method responds to the POST request for adding an anime review to the database.
         ---
         tags:
-        - Book Reviews
+        - Anime Reviews
         parameters:
             - in: body
               name: body
@@ -36,7 +36,7 @@ class PostReview(Resource):
                   remark:
                     type: string
                     default: ""
-                    description: any additional remark about the book
+                    description: any additional remark about the anime
         responses:
             201:
                 description: A successful POST request
