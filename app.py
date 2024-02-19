@@ -22,7 +22,7 @@ class PostReview(Resource):
               name: body
               required: true
               schema:
-                id: BookReview
+                id: AnimeReview
                 required:
                   - book
                   - rating
