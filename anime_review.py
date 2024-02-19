@@ -10,7 +10,7 @@ load_dotenv()
 class AnimeReview:
 
     def __init__(self):
-        self.api = Api(os.environ['ANIME_KEY'])
+        self.api = Api(os.environ["patPQ7j4UBWhnOGAQ.7118b20ff871f854239a35d076f5f1d13eb970a1e201e2b0292d5b5b31108785"])
         self.table = self.api.table('app3z413YGXNaYspL', 'tblbWDqffynJFJLoI') 
 
 
